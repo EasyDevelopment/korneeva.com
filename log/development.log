@@ -1,0 +1,494 @@
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-11 17:03:53 +0400
+Connecting to database specified by database.yml
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"main_page"}
+  Rendered pages/main_page.html.erb within layouts/application (5.1ms)
+Compiled callback_messages.css  (64ms)  (pid 5362)
+Compiled comments.css  (1ms)  (pid 5362)
+Compiled disks.css  (1ms)  (pid 5362)
+Compiled feedbacks.css  (1ms)  (pid 5362)
+Compiled messages.css  (1ms)  (pid 5362)
+Compiled sessions.css  (1ms)  (pid 5362)
+Compiled songs.css  (37ms)  (pid 5362)
+Compiled users.css  (1ms)  (pid 5362)
+Compiled welcome.css  (1ms)  (pid 5362)
+Compiled application.css  (183ms)  (pid 5362)
+Compiled jquery.js  (3ms)  (pid 5362)
+Compiled jquery_ujs.js  (0ms)  (pid 5362)
+Compiled callback_messages.js  (133ms)  (pid 5362)
+Compiled comments.js  (1ms)  (pid 5362)
+Compiled disks.js  (0ms)  (pid 5362)
+Compiled feedbacks.js  (0ms)  (pid 5362)
+Compiled messages.js  (0ms)  (pid 5362)
+Compiled sessions.js  (0ms)  (pid 5362)
+Compiled songs.js  (0ms)  (pid 5362)
+Compiled users.js  (0ms)  (pid 5362)
+Compiled welcome.js  (1ms)  (pid 5362)
+Compiled application.js  (403ms)  (pid 5362)
+Completed 200 OK in 995ms (Views: 994.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-11 17:03:55 +0400
+Served asset /application.css - 200 OK (24ms)
+
+
+Started GET "/assets/callback_messages.css?body=1" for 127.0.0.1 at 2013-02-11 17:03:55 +0400
+Served asset /callback_messages.css - 200 OK (2ms)
+
+
+Started GET "/assets/feedbacks.css?body=1" for 127.0.0.1 at 2013-02-11 17:03:55 +0400
+Served asset /feedbacks.css - 200 OK (2ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-02-11 17:03:55 +0400
+Served asset /comments.css - 200 OK (2ms)
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2013-02-11 17:03:55 +0400
+Served asset /messages.css - 200 OK (2ms)
+
+
+Started GET "/assets/disks.css?body=1" for 127.0.0.1 at 2013-02-11 17:03:55 +0400
+Served asset /disks.css - 200 OK (6ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-02-11 17:03:56 +0400
+Served asset /sessions.css - 200 OK (2ms)
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2013-02-11 17:03:56 +0400
+Served asset /songs.css - 200 OK (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-02-11 17:03:56 +0400
+Served asset /users.css - 200 OK (2ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-02-11 17:03:56 +0400
+Served asset /welcome.css - 200 OK (13ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-11 17:03:56 +0400
+Served asset /jquery.js - 200 OK (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-11 17:03:56 +0400
+Served asset /jquery_ujs.js - 200 OK (3ms)
+
+
+Started GET "/assets/callback_messages.js?body=1" for 127.0.0.1 at 2013-02-11 17:03:56 +0400
+Served asset /callback_messages.js - 200 OK (2ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-02-11 17:03:56 +0400
+Served asset /comments.js - 200 OK (3ms)
+
+
+Started GET "/assets/disks.js?body=1" for 127.0.0.1 at 2013-02-11 17:03:56 +0400
+Served asset /disks.js - 200 OK (1ms)
+
+
+Started GET "/assets/feedbacks.js?body=1" for 127.0.0.1 at 2013-02-11 17:03:56 +0400
+Served asset /feedbacks.js - 200 OK (5ms)
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2013-02-11 17:03:56 +0400
+Served asset /messages.js - 200 OK (5ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-02-11 17:03:56 +0400
+Served asset /sessions.js - 200 OK (7ms)
+
+
+Started GET "/assets/songs.js?body=1" for 127.0.0.1 at 2013-02-11 17:03:56 +0400
+Served asset /songs.js - 200 OK (7ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-02-11 17:03:56 +0400
+Served asset /users.js - 200 OK (2ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-02-11 17:03:56 +0400
+Served asset /welcome.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-11 17:03:56 +0400
+Served asset /application.js - 200 OK (21ms)
+
+
+Started GET "/disks" for 127.0.0.1 at 2013-02-11 17:04:01 +0400
+Processing by DisksController#index as HTML
+Completed 500 Internal Server Error in 127ms
+
+ActiveRecord::StatementInvalid (Could not find table 'disks'):
+  app/controllers/disks_controller.rb:4:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.9ms)
+
+
+Started GET "/songs" for 127.0.0.1 at 2013-02-11 17:04:09 +0400
+Processing by SongsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+ActiveRecord::StatementInvalid (Could not find table 'songs'):
+  app/controllers/songs_controller.rb:4:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.0ms)
+
+
+Started GET "/pages/announcement" for 127.0.0.1 at 2013-02-11 17:04:14 +0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"announcement"}
+  Rendered pages/announcement.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 22.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about_myself" for 127.0.0.1 at 2013-02-11 17:04:16 +0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"about_myself"}
+  Rendered pages/about_myself.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/billboard" for 127.0.0.1 at 2013-02-11 17:04:17 +0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"billboard"}
+  Rendered pages/billboard.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 21ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about_myself" for 127.0.0.1 at 2013-02-11 17:04:18 +0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"about_myself"}
+  Rendered pages/about_myself.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/billboard" for 127.0.0.1 at 2013-02-11 17:04:19 +0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"billboard"}
+  Rendered pages/billboard.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 62ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/side_notes" for 127.0.0.1 at 2013-02-11 17:04:20 +0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"side_notes"}
+  Rendered pages/side_notes.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-16 23:51:29 +0400
+Connecting to database specified by database.yml
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"main_page"}
+  Rendered pages/main_page.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 603ms (Views: 602.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-16 23:51:31 +0400
+Served asset /application.css - 200 OK (27ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-02-16 23:51:31 +0400
+Served asset /comments.css - 200 OK (2ms)
+
+
+Started GET "/assets/feedbacks.css?body=1" for 127.0.0.1 at 2013-02-16 23:51:31 +0400
+Served asset /feedbacks.css - 200 OK (5ms)
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2013-02-16 23:51:31 +0400
+Served asset /messages.css - 200 OK (2ms)
+
+
+Started GET "/assets/disks.css?body=1" for 127.0.0.1 at 2013-02-16 23:51:31 +0400
+Served asset /disks.css - 200 OK (2ms)
+
+
+Started GET "/assets/callback_messages.css?body=1" for 127.0.0.1 at 2013-02-16 23:51:31 +0400
+Served asset /callback_messages.css - 200 OK (2ms)
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2013-02-16 23:51:31 +0400
+Served asset /songs.css - 200 OK (10ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-02-16 23:51:31 +0400
+Served asset /sessions.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-16 23:51:31 +0400
+Served asset /jquery_ujs.js - 200 OK (91ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-02-16 23:51:31 +0400
+Served asset /users.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-16 23:51:31 +0400
+Served asset /jquery.js - 200 OK (10ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-02-16 23:51:31 +0400
+Served asset /welcome.css - 200 OK (2ms)
+
+
+Started GET "/assets/callback_messages.js?body=1" for 127.0.0.1 at 2013-02-16 23:51:31 +0400
+Served asset /callback_messages.js - 200 OK (2ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-02-16 23:51:31 +0400
+Served asset /comments.js - 200 OK (5ms)
+
+
+Started GET "/assets/feedbacks.js?body=1" for 127.0.0.1 at 2013-02-16 23:51:31 +0400
+Served asset /feedbacks.js - 200 OK (4ms)
+
+
+Started GET "/assets/disks.js?body=1" for 127.0.0.1 at 2013-02-16 23:51:31 +0400
+Served asset /disks.js - 200 OK (2ms)
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2013-02-16 23:51:31 +0400
+Served asset /messages.js - 200 OK (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-02-16 23:51:31 +0400
+Served asset /sessions.js - 200 OK (1ms)
+
+
+Started GET "/assets/songs.js?body=1" for 127.0.0.1 at 2013-02-16 23:51:31 +0400
+Served asset /songs.js - 200 OK (1ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-02-16 23:51:31 +0400
+Served asset /welcome.js - 200 OK (8ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-16 23:51:31 +0400
+Served asset /application.js - 200 OK (30ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-02-16 23:51:31 +0400
+Served asset /users.js - 200 OK (2ms)
+
+
+Started GET "/pages/announcement" for 127.0.0.1 at 2013-02-16 23:51:35 +0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"announcement"}
+  Rendered pages/announcement.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 49ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about_myself" for 127.0.0.1 at 2013-02-16 23:51:35 +0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"about_myself"}
+  Rendered pages/about_myself.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 36ms (Views: 35.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/songs" for 127.0.0.1 at 2013-02-16 23:51:36 +0400
+Processing by SongsController#index as HTML
+Completed 500 Internal Server Error in 102ms
+
+ActiveRecord::StatementInvalid (Could not find table 'songs'):
+  app/controllers/songs_controller.rb:4:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-17 15:40:50 +0400
+Connecting to database specified by database.yml
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"main_page"}
+  Rendered pages/main_page.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 635ms (Views: 633.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-17 15:40:52 +0400
+Served asset /application.css - 200 OK (67ms)
+
+
+Started GET "/assets/callback_messages.css?body=1" for 127.0.0.1 at 2013-02-17 15:40:52 +0400
+Served asset /callback_messages.css - 200 OK (2ms)
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2013-02-17 15:40:52 +0400
+Served asset /messages.css - 200 OK (2ms)
+
+
+Started GET "/assets/feedbacks.css?body=1" for 127.0.0.1 at 2013-02-17 15:40:52 +0400
+Served asset /feedbacks.css - 200 OK (2ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-02-17 15:40:52 +0400
+Served asset /comments.css - 200 OK (2ms)
+
+
+Started GET "/assets/disks.css?body=1" for 127.0.0.1 at 2013-02-17 15:40:52 +0400
+Served asset /disks.css - 200 OK (2ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-02-17 15:40:52 +0400
+Served asset /sessions.css - 200 OK (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-17 15:40:52 +0400
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2013-02-17 15:40:52 +0400
+Served asset /songs.css - 200 OK (2ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-02-17 15:40:53 +0400
+Served asset /welcome.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-17 15:40:53 +0400
+Served asset /jquery.js - 200 OK (7ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-02-17 15:40:53 +0400
+Served asset /users.css - 200 OK (3ms)
+
+
+Started GET "/assets/callback_messages.js?body=1" for 127.0.0.1 at 2013-02-17 15:40:53 +0400
+Served asset /callback_messages.js - 200 OK (2ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-02-17 15:40:53 +0400
+Served asset /comments.js - 200 OK (2ms)
+
+
+Started GET "/assets/disks.js?body=1" for 127.0.0.1 at 2013-02-17 15:40:53 +0400
+Served asset /disks.js - 200 OK (1ms)
+
+
+Started GET "/assets/feedbacks.js?body=1" for 127.0.0.1 at 2013-02-17 15:40:53 +0400
+Served asset /feedbacks.js - 200 OK (2ms)
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2013-02-17 15:40:53 +0400
+Served asset /messages.js - 200 OK (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-02-17 15:40:53 +0400
+Served asset /sessions.js - 200 OK (2ms)
+
+
+Started GET "/assets/songs.js?body=1" for 127.0.0.1 at 2013-02-17 15:40:53 +0400
+Served asset /songs.js - 200 OK (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-02-17 15:40:53 +0400
+Served asset /users.js - 200 OK (3ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-02-17 15:40:53 +0400
+Served asset /welcome.js - 200 OK (7ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-17 15:40:53 +0400
+Served asset /application.js - 200 OK (21ms)
+
+
+Started GET "/disks" for 127.0.0.1 at 2013-02-17 16:04:44 +0400
+Processing by DisksController#index as HTML
+Completed 500 Internal Server Error in 603ms
+
+ActiveRecord::StatementInvalid (Could not find table 'disks'):
+  app/controllers/disks_controller.rb:4:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.2ms)
+
+
+Started GET "/disks" for 127.0.0.1 at 2013-02-17 16:04:51 +0400
+Processing by DisksController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'disks'):
+  app/controllers/disks_controller.rb:4:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.5ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (140.5ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (146.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateSongs (20130206124204)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  CREATE TABLE "songs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "authors" varchar(255), "record_year" varchar(255), "lyrics" text, "music_papers" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130206124204')[0m
+  [1m[35m (193.7ms)[0m  commit transaction
+Migrating to CreateMessages (20130206124216)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "messages" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "location" varchar(255), "email" varchar(255), "body" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130206124216')[0m
+  [1m[35m (231.8ms)[0m  commit transaction
+Migrating to CreateFeedbacks (20130206124310)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  CREATE TABLE "feedbacks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "location" varchar(255), "body" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130206124310')[0m
+  [1m[35m (200.3ms)[0m  commit transaction
+Migrating to CreateDisks (20130206124348)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.9ms)[0m  CREATE TABLE "disks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "body" text, "year" varchar(255), "album_cover" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130206124348')[0m
+  [1m[35m (190.8ms)[0m  commit transaction
+Migrating to ChangeDataTypeForBodyInFeedbacks (20130207065119)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TEMPORARY TABLE "altered_feedbacks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "location" varchar(255), "body" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mSELECT * FROM "feedbacks"[0m
+  [1m[35m (0.3ms)[0m  DROP TABLE "feedbacks"
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "feedbacks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "location" varchar(255), "body" text(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "altered_feedbacks"
+  [1m[36m (0.3ms)[0m  [1mDROP TABLE "altered_feedbacks"[0m
+  [1m[35m (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130207065119')
+  [1m[36m (258.1ms)[0m  [1mcommit transaction[0m
+Migrating to ChangeDataTypeForMusicPapersInSongs (20130207065201)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TEMPORARY TABLE "altered_songs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "authors" varchar(255), "record_year" varchar(255), "lyrics" text, "music_papers" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "songs"
+  [1m[36m (0.3ms)[0m  [1mDROP TABLE "songs"[0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "songs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "authors" varchar(255), "record_year" varchar(255), "lyrics" text, "music_papers" text(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "altered_songs"[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "altered_songs"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130207065201')[0m
+  [1m[35m (259.9ms)[0m  commit transaction
+Migrating to CreateUsers (20130210195523)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "password_digest" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130210195523')[0m
+  [1m[35m (190.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.7ms)[0m  [1mbegin transaction[0m

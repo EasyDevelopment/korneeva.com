@@ -18,6 +18,8 @@ gem 'jquery-rails'
 gem 'simple_form'
 gem "high_voltage"
 gem 'bcrypt-ruby'
+gem 'seed-fu'
+gem 'nokogiri'
 
 group :development, :test do
   gem 'sqlite3'
