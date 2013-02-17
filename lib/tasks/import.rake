@@ -2,13 +2,10 @@ require 'nokogiri'
 require 'open-uri'
 require 'uri'
 
-task :csv_disk_import do |task|  
-end  	
+desc "Import data from Disk db"
 
-desc "disk_import"
-
-task :disk_import => :environment  do
-
+task :db_disk_import => :environment  do
+  puts "Start parsing site!"
 
   id = 0
   url_main = "http://korneeva.com/disko.html"
@@ -37,21 +34,16 @@ task :disk_import => :environment  do
     end 
   end
 
-  puts "import to db Disk -- #{id} "
+  puts "Import to db Disk"
 
-  (id+1).times do |id| 
-  	d = Disk.new(:id => id-1, :title => title[id-1], :body=> body[id-1], :year=> year[id-1],  :album_cover => album_cover[id-1]) 
-	  puts "it's db Disk -- ##{d}"
+  (id).times do |id| 
+  	d = Disk.new(:id => id, :title => title[id], :body=> body[id], :year=> year[id],  :album_cover => album_cover[id]) 
     d.save
+    puts "it's db Disk -- id database = #{d.id}"
   end
   
-    # id.times do |id| 
-    #  	puts title[id]
-    # 	puts body[id]
-    # 	puts year[id]
-    # 	puts album_cover[id]
-    # end  	#	
-end	
+end
+	
 
 
 
