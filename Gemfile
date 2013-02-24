@@ -20,6 +20,7 @@ gem "high_voltage"
 gem 'bcrypt-ruby'
 gem 'seed-fu'
 gem 'nokogiri'
+gem 'mechanize'
 
 group :development, :test do
   gem 'sqlite3'
